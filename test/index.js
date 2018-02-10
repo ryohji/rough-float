@@ -1,5 +1,6 @@
-const assert = require('assert');
+import { valueOf } from '../index';
+import { equal as assertEq } from 'assert';
 
 describe('foo', () => {
-  it('bar', () => assert.equal(1, 1));
+  it('blar', () => assertEq(1, valueOf(63)));
 });
