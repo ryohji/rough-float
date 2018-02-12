@@ -1,6 +1,6 @@
 import {
     valueOf
-} from '../index';
+} from '../src/value-of';
 import {
     equal as assertEq
 } from 'assert';
