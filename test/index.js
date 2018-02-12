@@ -4,6 +4,10 @@ import {
 import {
   equal as assertEq
 } from 'assert';
+import {
+  describe,
+  it
+} from 'mocha';
 
 describe('rough values', () => {
   it('#0 is zero.', () => assertEq(valueOf(0), 0));
